@@ -1,0 +1,64 @@
+_id: req_b422c8fdf29a433d843e4a7506bc8b3f
+type: Request
+parentId: fld_9f938247048a49588474371072468d3b
+modified: 1695516794074
+created: 1695514801763
+url: "{{ _.base_url }}/soaang-catalogs/api/providers/provider-experience/"
+name: provider-experience F
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_0cf867656e844146a5b592978080e4ae
+      name: proveId
+      value: "62"
+      description: ""
+    - id: pair_4736da739abb4f1ca4024d0dc40dc460
+      name: proveReferenceCompany
+      value: virtual XI
+      description: ""
+    - id: pair_8fdc34f95ef947769a779eebef514570
+      name: proveTimeService
+      value: "2"
+      description: ""
+    - id: pair_faeff6cb1c8749c08bb7cc61fafeed4d
+      name: proveAttached
+      value: "{% file 'C:\\\\Users\\\\jcgon\\\\OneDrive\\\\Desktop\\\\Correo de
+        Ikatech Solutions - We need a trial license.pdf' %}"
+      description: ""
+      type: file
+      fileName: C:\Users\jcgon\OneDrive\Desktop\Correo de Ikatech Solutions - We need
+        a trial license - Copy.pdf
+    - id: pair_97c390112c284b55873ef9dbcf47973a
+      name: proveIsActive
+      value: "true"
+      description: ""
+    - id: pair_8e0b661ee5f44e078ec9749be9731652
+      name: provId
+      value: "399"
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+  - name: User-Agent
+    value: insomnia/2023.5.8
+    id: pair_2d5ab67bc64042fc8671b5a6cd3f93e6
+  - id: pair_12b91a7d064a4575ae6146e81428f7e9
+    name: client-id
+    value: "{{ _.client_id }}"
+    description: ""
+  - id: pair_d1426bb8c0ec494d843b4b6858dc1872
+    name: username
+    value: "{{ _.user_dev }}"
+    description: ""
+authentication: {}
+metaSortKey: -1695324356992.625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

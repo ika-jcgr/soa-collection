@@ -1,0 +1,20 @@
+_id: env_45917037994a4d4191e81e63760fd783
+type: Environment
+parentId: env_1153347fab05c27c00b7b796cd29b8991b6c676f
+modified: 1695314782115
+created: 1695311282543
+name: dev-client_id-2
+data:
+  access_dev: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjk1MzkwOTY4LCJqdGkiOiIyOTRjZDAwYTlhNTA0OTk0YTI2MTJjMTI1NmFkZjA1NSIsInVzZXJfaWQiOjEwOTl9.Z6zm4MQv7tq6qiTnaKfH8AhU_JXJuJc2dtL1D8cO62w
+  user_dev: jcgonzalez
+  base_url: http://localhost:8000
+  client_id: 2
+dataPropertyOrder:
+  "&":
+    - access_dev
+    - user_dev
+    - base_url
+    - client_id
+color: "#e4bdff"
+isPrivate: false
+metaSortKey: 1695311282543

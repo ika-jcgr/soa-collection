@@ -1,0 +1,83 @@
+_id: req_c1af99c401334bbf9bf085865e380d82
+type: Request
+parentId: fld_9f938247048a49588474371072468d3b
+modified: 1695516805829
+created: 1695478293769
+url: "{{ _.base_url }}/soaang-catalogs/api/providers/provider-headquarter/"
+name: provider-headquarter F
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_3c8fa4f4f87b491e9dcd04e23bd47a4c
+      name: entities_data
+      value: '[ { "leId": 271 }, { "leId": 279} ]'
+      description: ""
+      disabled: false
+      type: text
+      multiline: false
+    - id: pair_bbc11934d6c648889834d8cbd59eca3c
+      name: phName
+      value: TC - Insomnia
+      description: ""
+      disabled: false
+      type: text
+      multiline: false
+    - id: pair_8c5eb38396d64dfdb2081b92f7e5e846
+      name: phAddress
+      value: ""
+      description: ""
+    - id: pair_3c8ba4ea3c044b12959863491d4b67f5
+      name: phLatitude
+      value: "19.1896298804014"
+      description: ""
+    - id: pair_0f0fcd9c97a1455191fd5a13648592b4
+      name: phLongitude
+      value: "-99.00723686132812"
+      description: ""
+    - id: pair_3a1fc625c4b0420696279e6f75253dc0
+      name: phIsMain
+      value: "true"
+      description: ""
+    - id: pair_31ca7bb50f9d41ba8fb036eace4a79ec
+      name: phIsActive
+      value: "true"
+      description: ""
+    - id: pair_783659199673454b87e1e85dd50c7f20
+      name: provId
+      value: "16"
+      description: ""
+    - id: pair_0d1d86706a5a41e2bb2621677c6e96e1
+      name: phIconActive
+      value: "{% file
+        'C:\\\\Users\\\\jcgon\\\\OneDrive\\\\Desktop\\\\firey-blue-flamed-pokem\
+        on.png' %}"
+      description: ""
+      type: file
+      multiline: false
+      fileName: C:\Users\jcgon\OneDrive\Desktop\firey-blue-flamed-pokemon.png
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+  - name: User-Agent
+    value: insomnia/2023.5.8
+    id: pair_2d5ab67bc64042fc8671b5a6cd3f93e6
+  - id: pair_12b91a7d064a4575ae6146e81428f7e9
+    name: client-id
+    value: "{{ _.client_id }}"
+    description: ""
+  - id: pair_d1426bb8c0ec494d843b4b6858dc1872
+    name: username
+    value: "{{ _.user_dev }}"
+    description: ""
+authentication: {}
+metaSortKey: -1695324297534.8125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

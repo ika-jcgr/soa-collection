@@ -1,0 +1,32 @@
+_id: req_db75fdbba6204735bc52c7d1d7abed31
+type: Request
+parentId: fld_9f938247048a49588474371072468d3b
+modified: 1695326333200
+created: 1695326321848
+url: "{{ _.base_url }}/soaang-catalogs/api/providers/provider-fixed-headquarters"
+name: provider-fixed-headquarters
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+    id: pair_2d5ab67bc64042fc8671b5a6cd3f93e6
+  - id: pair_12b91a7d064a4575ae6146e81428f7e9
+    name: client-id
+    value: "{{ _.client_id }}"
+    description: ""
+  - id: pair_d1426bb8c0ec494d843b4b6858dc1872
+    name: username
+    value: "{{ _.user_dev }}"
+    description: ""
+authentication: {}
+metaSortKey: -1695324333209.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,36 @@
+_id: req_7439476ea433462aadd36e954ec43ac9
+type: Request
+parentId: fld_c877ff34354b4844b420cf1fd39da81e
+modified: 1695327906599
+created: 1695327856822
+url: "{{ _.base_url }}/soaang-catalogs/api/parameters/group-delegate-users/"
+name: group-delegate-users
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_75fde44e18224408ac0b25cc665a1657
+    name: gdId
+    value: "18"
+    description: ""
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+    id: pair_2d5ab67bc64042fc8671b5a6cd3f93e6
+  - id: pair_12b91a7d064a4575ae6146e81428f7e9
+    name: client-id
+    value: "{{ _.client_id }}"
+    description: ""
+  - id: pair_d1426bb8c0ec494d843b4b6858dc1872
+    name: username
+    value: "{{ _.user_dev }}"
+    description: ""
+authentication: {}
+metaSortKey: -1695327664459
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

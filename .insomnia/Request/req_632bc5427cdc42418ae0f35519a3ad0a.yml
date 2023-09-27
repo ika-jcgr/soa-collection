@@ -1,0 +1,31 @@
+_id: req_632bc5427cdc42418ae0f35519a3ad0a
+type: Request
+parentId: fld_4b5a16fb076d47349514f9424fa12579
+modified: 1695505030636
+created: 1695504989425
+url: https://api.mokbox360.com/soaang-users/api/token/
+name: token mok
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "username":"prueba.Ikatech",
+      "password":"App123456*"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1695306953803.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

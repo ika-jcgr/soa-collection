@@ -1,0 +1,62 @@
+_id: req_8704bb4f2e40499ca6746a12a4582874
+type: Request
+parentId: fld_9f938247048a49588474371072468d3b
+modified: 1695565556382
+created: 1695516461816
+url: "{{ _.base_url }}/soaang-catalogs/api/providers/provider-polygon/"
+name: provider-polygon
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "points": [
+            {
+                "pspLatitude": 18.327947808029982,
+                "pspLongitude": -66.13400329573679
+            },
+            {
+                "pspLatitude": 18.401083575286997,
+                "pspLongitude": -66.01527770979929
+            },
+            {
+                "pspLatitude": 18.417392579854702,
+                "pspLongitude": -66.12988342268991
+            },
+            {
+                "pspLatitude": 18.402386645060922,
+                "pspLongitude": -66.21702331526802
+            }
+        ],
+        "pspName": "Test poligon ciervo",
+        "pspIsActive": true,
+        "servId": 3,
+        "provId": 399,
+        "pspId": null,
+        "phId": 159
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+    id: pair_2d5ab67bc64042fc8671b5a6cd3f93e6
+  - id: pair_12b91a7d064a4575ae6146e81428f7e9
+    name: client-id
+    value: "{{ _.client_id }}"
+    description: ""
+  - id: pair_d1426bb8c0ec494d843b4b6858dc1872
+    name: username
+    value: "{{ _.user_dev }}"
+    description: ""
+authentication: {}
+metaSortKey: -1695324291589.0312
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

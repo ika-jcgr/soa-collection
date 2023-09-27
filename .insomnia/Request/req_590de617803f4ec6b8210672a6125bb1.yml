@@ -1,0 +1,32 @@
+_id: req_590de617803f4ec6b8210672a6125bb1
+type: Request
+parentId: fld_478cd7e72d104e0b81993424533e743a
+modified: 1695311756088
+created: 1695305252448
+url: "{{ _.base_url }}/soaang-assistances/api/assistances/5722/stages/24987"
+name: <assId>/stages/<ssId>
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+    id: pair_2d5ab67bc64042fc8671b5a6cd3f93e6
+  - id: pair_12b91a7d064a4575ae6146e81428f7e9
+    name: client-id
+    value: "{{ _.client_id }}"
+    description: ""
+  - id: pair_d1426bb8c0ec494d843b4b6858dc1872
+    name: username
+    value: "{{ _.user_dev }}"
+    description: ""
+authentication: {}
+metaSortKey: -1695306908632
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

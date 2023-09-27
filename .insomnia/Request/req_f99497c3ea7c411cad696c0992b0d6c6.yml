@@ -1,0 +1,32 @@
+_id: req_f99497c3ea7c411cad696c0992b0d6c6
+type: Request
+parentId: fld_d1ca4430a0074e2c9c3c369bc799dd6b
+modified: 1695324920207
+created: 1695323827273
+url: "{{ _.base_url }}/soaang-catalogs/api/services/list-share-events"
+name: list-share-events
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+    id: pair_2d5ab67bc64042fc8671b5a6cd3f93e6
+  - id: pair_12b91a7d064a4575ae6146e81428f7e9
+    name: client-id
+    value: "{{ _.client_id }}"
+    description: ""
+  - id: pair_d1426bb8c0ec494d843b4b6858dc1872
+    name: username
+    value: "{{ _.user_dev }}"
+    description: ""
+authentication: {}
+metaSortKey: -1695324882313
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,32 @@
+_id: req_c88a979968fe4af9bb6e628e691ada8a
+type: Request
+parentId: fld_70ef9c87f43b43c484751fe41e0c8740
+modified: 1695327361154
+created: 1695327192166
+url: "{{ _.base_url }}/soaang-catalogs/api/families/family-plan/"
+name: family-plan
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+    id: pair_2d5ab67bc64042fc8671b5a6cd3f93e6
+  - id: pair_12b91a7d064a4575ae6146e81428f7e9
+    name: client-id
+    value: "{{ _.client_id }}"
+    description: ""
+  - id: pair_d1426bb8c0ec494d843b4b6858dc1872
+    name: username
+    value: "{{ _.user_dev }}"
+    description: ""
+authentication: {}
+metaSortKey: -1695324221247.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,49 @@
+_id: req_7469bc033c7b40d59de7910724a41978
+type: Request
+parentId: fld_a38796dc1124404a87839afc1eb3f4cf
+modified: 1695311675783
+created: 1695310546707
+url: "{{ _.base_url }}/soaang-assistances/api/assignation/provider-search/"
+name: provider-save
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "assId": 3483,
+        "provcId": 3,
+        "assignation_date": "2023-07-17T11:37:51.096Z",
+        "smUserId": "capacitacionika",
+        "sId": 2
+    }
+parameters:
+  - id: pair_e5957cab03dc4e9184c0cfaa3983fb11
+    name: search
+    value: Document
+    description: ""
+    disabled: true
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_b6bcfd9d9e0f4dada1023cca21bd9774
+  - name: User-Agent
+    value: insomnia/2023.5.8
+    id: pair_2d5ab67bc64042fc8671b5a6cd3f93e6
+  - id: pair_12b91a7d064a4575ae6146e81428f7e9
+    name: client-id
+    value: "{{ _.client_id }}"
+    description: ""
+  - id: pair_d1426bb8c0ec494d843b4b6858dc1872
+    name: username
+    value: "{{ _.user_dev }}"
+    description: ""
+authentication: {}
+metaSortKey: -1695308715340.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

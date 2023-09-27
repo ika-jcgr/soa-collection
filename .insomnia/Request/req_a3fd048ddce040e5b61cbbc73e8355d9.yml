@@ -1,0 +1,32 @@
+_id: req_a3fd048ddce040e5b61cbbc73e8355d9
+type: Request
+parentId: fld_fb7273d3988d428f80e76c7d25ae843d
+modified: 1695324831624
+created: 1695324816930
+url: "{{ _.base_url }}/soaang-catalogs/api/companies/list-company-soa"
+name: list-company-soa
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+    id: pair_2d5ab67bc64042fc8671b5a6cd3f93e6
+  - id: pair_12b91a7d064a4575ae6146e81428f7e9
+    name: client-id
+    value: "{{ _.client_id }}"
+    description: ""
+  - id: pair_d1426bb8c0ec494d843b4b6858dc1872
+    name: username
+    value: "{{ _.user_dev }}"
+    description: ""
+authentication: {}
+metaSortKey: -1695324824696
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

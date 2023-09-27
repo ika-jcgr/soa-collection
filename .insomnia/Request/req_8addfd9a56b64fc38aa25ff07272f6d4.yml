@@ -1,0 +1,43 @@
+_id: req_8addfd9a56b64fc38aa25ff07272f6d4
+type: Request
+parentId: fld_c877ff34354b4844b420cf1fd39da81e
+modified: 1695518203002
+created: 1695518148499
+url: "{{ _.base_url }}/soaang-catalogs/api/parameters/schedules-costs/7/"
+name: schedules-costs/<dayId>/
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "isWeekend": true,
+      "startDayTime": "08:00",
+      "startDayTimeWeekend": "18:00",
+      "startNightTimeWeekend": "23:59",
+      "startNinghtTime": "11:59"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+    id: pair_2d5ab67bc64042fc8671b5a6cd3f93e6
+  - id: pair_12b91a7d064a4575ae6146e81428f7e9
+    name: client-id
+    value: "{{ _.client_id }}"
+    description: ""
+  - id: pair_d1426bb8c0ec494d843b4b6858dc1872
+    name: username
+    value: "{{ _.user_dev }}"
+    description: ""
+authentication: {}
+metaSortKey: -1695326378723
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

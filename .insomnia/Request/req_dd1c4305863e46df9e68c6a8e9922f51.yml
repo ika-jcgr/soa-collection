@@ -1,0 +1,36 @@
+_id: req_dd1c4305863e46df9e68c6a8e9922f51
+type: Request
+parentId: fld_a38796dc1124404a87839afc1eb3f4cf
+modified: 1695311564597
+created: 1695307695752
+url: "{{ _.base_url }}/soaang-assistances/api/assignation/provider-search/"
+name: provider-search
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_e5957cab03dc4e9184c0cfaa3983fb11
+    name: search
+    value: Document
+    description: ""
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+    id: pair_2d5ab67bc64042fc8671b5a6cd3f93e6
+  - id: pair_12b91a7d064a4575ae6146e81428f7e9
+    name: client-id
+    value: "{{ _.client_id }}"
+    description: ""
+  - id: pair_d1426bb8c0ec494d843b4b6858dc1872
+    name: username
+    value: "{{ _.user_dev }}"
+    description: ""
+authentication: {}
+metaSortKey: -1695310431806
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

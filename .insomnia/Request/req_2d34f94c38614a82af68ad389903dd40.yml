@@ -1,0 +1,54 @@
+_id: req_2d34f94c38614a82af68ad389903dd40
+type: Request
+parentId: fld_70ef9c87f43b43c484751fe41e0c8740
+modified: 1695517090650
+created: 1695516917365
+url: "{{ _.base_url }}/soaang-catalogs/api/families/family-plan/"
+name: family-plan F
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_b17bc9be98eb497ca7cae89af887f614
+      name: fmId
+      value: "119"
+      description: ""
+    - id: pair_1cb35aeab9fc46f2ae34a8ca321cfce5
+      name: plId
+      value: "305"
+      description: ""
+    - id: pair_36c55e4b5f1f4729b2f6e1e30c41255c
+      name: fpLogo
+      value: ""
+      description: ""
+      type: file
+      fileName: C:\Users\jcgon\OneDrive\Desktop\713310.png
+    - id: pair_15a87c50f99f44d1a18f2c5e7b7db3b9
+      name: fpIsActive
+      value: "true"
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+  - name: User-Agent
+    value: insomnia/2023.5.8
+    id: pair_2d5ab67bc64042fc8671b5a6cd3f93e6
+  - id: pair_12b91a7d064a4575ae6146e81428f7e9
+    name: client-id
+    value: "{{ _.client_id }}"
+    description: ""
+  - id: pair_d1426bb8c0ec494d843b4b6858dc1872
+    name: username
+    value: "{{ _.user_dev }}"
+    description: ""
+authentication: {}
+metaSortKey: -1695324212833.125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

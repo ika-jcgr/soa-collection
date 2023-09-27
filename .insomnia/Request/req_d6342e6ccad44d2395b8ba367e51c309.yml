@@ -1,0 +1,33 @@
+_id: req_d6342e6ccad44d2395b8ba367e51c309
+type: Request
+parentId: fld_d554f4f7ffa94f089cda19807af6a837
+modified: 1695329435921
+created: 1695329398378
+url: "{{ _.base_url
+  }}/soaang-configurations-external/api/domain_user/info-version-app/"
+name: info-version-app
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+    id: pair_2d5ab67bc64042fc8671b5a6cd3f93e6
+  - id: pair_12b91a7d064a4575ae6146e81428f7e9
+    name: client-id
+    value: "{{ _.client_id }}"
+    description: ""
+  - id: pair_d1426bb8c0ec494d843b4b6858dc1872
+    name: username
+    value: "{{ _.user_dev }}"
+    description: ""
+authentication: {}
+metaSortKey: -1695329403899
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

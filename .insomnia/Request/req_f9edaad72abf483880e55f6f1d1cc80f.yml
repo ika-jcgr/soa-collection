@@ -1,0 +1,43 @@
+_id: req_f9edaad72abf483880e55f6f1d1cc80f
+type: Request
+parentId: fld_9f938247048a49588474371072468d3b
+modified: 1695517743449
+created: 1695517640451
+url: "{{ _.base_url }}/soaang-catalogs/api/providers/provider/399/"
+name: provider/<provId>
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "provFiscalName": "Ciervo Bosque EU2",
+        "provTradeName": "Ciervo Bosque 3",
+        "dtId": 33,
+        "provDocumentNumber": "81234345234",
+        "curId": 0
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+    id: pair_2d5ab67bc64042fc8671b5a6cd3f93e6
+  - id: pair_12b91a7d064a4575ae6146e81428f7e9
+    name: client-id
+    value: "{{ _.client_id }}"
+    description: ""
+  - id: pair_d1426bb8c0ec494d843b4b6858dc1872
+    name: username
+    value: "{{ _.user_dev }}"
+    description: ""
+authentication: {}
+metaSortKey: -1695324368884.1875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

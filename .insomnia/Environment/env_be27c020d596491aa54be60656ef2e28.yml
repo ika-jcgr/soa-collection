@@ -1,0 +1,20 @@
+_id: env_be27c020d596491aa54be60656ef2e28
+type: Environment
+parentId: env_1153347fab05c27c00b7b796cd29b8991b6c676f
+modified: 1695505269463
+created: 1695313773357
+name: prod-client_id-7
+data:
+  access_dev: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjk1NTkxNDU2LCJqdGkiOiI0NDc5MWMwZTZkNzc0Mjk3YWRiY2E3Y2U5NWQ4NDVmYiIsInVzZXJfaWQiOjUwMn0.wVs7rK-p5Z3MKBa1gRGm5gdJPtA7tZPvYFtn4C57OBU
+  user_dev: prueba.Ikatech
+  base_url: https://api.mokbox360.com
+  client_id: 7
+dataPropertyOrder:
+  "&":
+    - access_dev
+    - user_dev
+    - base_url
+    - client_id
+color: "#526eff"
+isPrivate: false
+metaSortKey: 1695313773357

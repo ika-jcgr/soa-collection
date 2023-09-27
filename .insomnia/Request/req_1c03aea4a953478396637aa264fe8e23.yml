@@ -1,0 +1,32 @@
+_id: req_1c03aea4a953478396637aa264fe8e23
+type: Request
+parentId: fld_d19bd13df9ea481c9b45639991cb47ec
+modified: 1695565608643
+created: 1695327557913
+url: "{{ _.base_url }}/soaang-catalogs/api/events/event"
+name: event
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+    id: pair_2d5ab67bc64042fc8671b5a6cd3f93e6
+  - id: pair_12b91a7d064a4575ae6146e81428f7e9
+    name: client-id
+    value: "{{ _.client_id }}"
+    description: ""
+  - id: pair_d1426bb8c0ec494d843b4b6858dc1872
+    name: username
+    value: "{{ _.user_dev }}"
+    description: ""
+authentication: {}
+metaSortKey: -1695323755567
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

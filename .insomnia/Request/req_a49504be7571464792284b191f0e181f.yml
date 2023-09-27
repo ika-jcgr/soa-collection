@@ -1,0 +1,32 @@
+_id: req_a49504be7571464792284b191f0e181f
+type: Request
+parentId: fld_0c11aff1b9f046eaa25b02657df240ea
+modified: 1695325264209
+created: 1695325252555
+url: "{{ _.base_url }}/soaang-catalogs/api/affiliate/affiliate-locations"
+name: affiliate-locations
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+    id: pair_2d5ab67bc64042fc8671b5a6cd3f93e6
+  - id: pair_12b91a7d064a4575ae6146e81428f7e9
+    name: client-id
+    value: "{{ _.client_id }}"
+    description: ""
+  - id: pair_d1426bb8c0ec494d843b4b6858dc1872
+    name: username
+    value: "{{ _.user_dev }}"
+    description: ""
+authentication: {}
+metaSortKey: -1695325092912
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

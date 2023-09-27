@@ -1,0 +1,31 @@
+_id: req_b32079c96d3a422cba597e3f4f8dbafb
+type: Request
+parentId: fld_4b5a16fb076d47349514f9424fa12579
+modified: 1695504978824
+created: 1695304495278
+url: https://api.sistemaoperaciones.com/soaang-users/api/token/
+name: token dev
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "username":"jcgonzalez",
+      "password":"Jc4m1l0r!"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1695306998875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
